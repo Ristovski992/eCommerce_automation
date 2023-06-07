@@ -38,7 +38,7 @@ public class MyOrdersPage {
     public String paymentMethodLabel = "//*[@id='maincontent']/div[2]/div[1]/div[3]/div[2]/div[4]/div/dl/dt";
     public String paymentMethodValue = "Check / Money order";
 
-    SimpleDateFormat formatter = new SimpleDateFormat("MMM d, yyyy", Locale.ENGLISH);
+    SimpleDateFormat formatter = new SimpleDateFormat("MMMM d, yyyy", Locale.ENGLISH);
     public String todayDate = formatter.format(new Date());
 
     public void checkOrder(WebDriver driver) {
